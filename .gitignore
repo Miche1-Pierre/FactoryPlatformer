@@ -7,9 +7,4 @@
 /Packages
 
 # User-specific files
-*.swp
-*.suo
-*.user
-*.userosscache
-*.sln
 *.csproj
