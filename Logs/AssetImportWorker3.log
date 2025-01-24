@@ -1556,3 +1556,443 @@ Memory consumption went from 152.7 MB to 146.9 MB.
 Total: 11.122600 ms (FindLiveObjects: 0.848600 ms CreateObjectMapping: 0.969900 ms MarkObjects: 5.637700 ms  DeleteObjects: 3.664800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 78051.601158 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/4_0.asset
+  artifactKey: Guid(3843362fbc9fe0640afde3afc3a42267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/4_0.asset using Guid(3843362fbc9fe0640afde3afc3a42267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '579ff9b67439d4ec1fe229f9d1259e89') in 0.7252447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.422936 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset
+  artifactKey: Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset using Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6eaaafb33524467fe3742e3ccf1c82c7') in 0.0200822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a0056c44fda7a5518662251f0eeb0f4') in 0.4851082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.778101 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset
+  artifactKey: Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset using Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22b1187190f0acc5adcc85d8de73b2df') in 0.0086725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b0fad22371e7a835cf3cafc8d9f2aca') in 0.0196442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.716511 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset
+  artifactKey: Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset using Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad1bd983fda0f508f647d63c88feebc6') in 0.0078716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf84570a85d818f7dab249cd784dde39') in 0.020749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.613801 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset
+  artifactKey: Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset using Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac663f230b257b4b4311b8220b25d3b1') in 0.0076823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a21bea4b44d7299fdb04d4d29be46e81') in 0.0201698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.315159 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset
+  artifactKey: Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset using Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9783912caa971f985828eae8d7c22565') in 0.0077857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ef258a3a2580cfadbd6ed285aa90f60') in 0.0187669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.002449 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset
+  artifactKey: Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset using Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b0eeb83a51afdaabe97235954b1f5e9') in 0.0084787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7368793139175b82ac6166c0d5081e2') in 0.0214011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.368333 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset
+  artifactKey: Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset using Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6270851d79fcce6188d2232373897025') in 0.0080156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ec5845255d5b089341e4cd96af85321') in 0.0116877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.858684 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset
+  artifactKey: Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset using Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5cb9df45d8b3bb3d43a50f60df5e78d') in 0.0078185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c670a3eb280871338a3fd3a01dcffe3') in 0.0206013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.684519 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset
+  artifactKey: Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset using Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d988f85122007f0be5089d40ae0307f') in 0.0076344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8395c18f041160bf16a093e3cc88d618') in 0.0185207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.845060 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset
+  artifactKey: Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset using Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dc5cefc1ef1ec0bca3fefd4579501ae') in 0.0077168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38c4ff96c9c403ad142a7648a07d1b9c') in 0.0193083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.987273 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset
+  artifactKey: Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/3_0.asset using Guid(957c8bee4bded3047b7f417ac53b787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62cf99aa20035d6845c51cd5dab5030e') in 0.0076203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '821bd28aa5f03de3f1767f5f18ccc26e') in 0.0193951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.847700 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/4_0.asset
+  artifactKey: Guid(3843362fbc9fe0640afde3afc3a42267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/4_0.asset using Guid(3843362fbc9fe0640afde3afc3a42267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b6c0373edd9f76ba60e4390e7b00e97') in 0.0079639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab
+  artifactKey: Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Power lines/Pilars.prefab using Guid(fefd62ae2241b8a4d81dac5f720b1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd77be8c5935bdc2e44fa9903c3a50eab') in 0.0186218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 1692.044094 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/25_0.asset
+  artifactKey: Guid(f589cf373d1e36140918982e4af6c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/25_0.asset using Guid(f589cf373d1e36140918982e4af6c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c8ae4376bcb51da2712d41ef8c730f9') in 0.0194579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.417250 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset
+  artifactKey: Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset using Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e85349272891cff2209ed4e92c2a8e9') in 0.0089296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab
+  artifactKey: Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab using Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '566cb7561f1f2864ccde1493b7981fdc') in 0.0208169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.064658 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset
+  artifactKey: Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset using Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b56c8e93ebdacf7f8b562ba2f5e4d972') in 0.0083567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab
+  artifactKey: Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab using Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1e034dc9ad341e73302afdc72a62c4b') in 0.0199288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.271413 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset
+  artifactKey: Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset using Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f276cefd830ce038e7780d3d571e7f6b') in 0.0079737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab
+  artifactKey: Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab using Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b34349a10e6de951edff01541a583149') in 0.0120942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.069623 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset
+  artifactKey: Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset using Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6edd7ff68a88af122ccd5e548013ca72') in 0.0072182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab
+  artifactKey: Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab using Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80f8a69d8ceab95ac8c6eb00102cc54a') in 0.0193044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.668772 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset
+  artifactKey: Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset using Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e41fe92fe8ec0d3217c847824d3944c9') in 0.0080191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab
+  artifactKey: Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab using Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8224f9821aecc548eba0deb3e55e3507') in 0.0190718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.383833 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset
+  artifactKey: Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/24_0.asset using Guid(80b12a666417d0343b19f3dca646db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ae5c2022fa66af694986acceba1c956') in 0.0077134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab
+  artifactKey: Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab using Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe088adefd65b5b5b1978a7656873fb7') in 0.0184857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.479002 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/25_0.asset
+  artifactKey: Guid(f589cf373d1e36140918982e4af6c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/25_0.asset using Guid(f589cf373d1e36140918982e4af6c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1480cf6cb924bae41115618026d7caa5') in 0.0076713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab
+  artifactKey: Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/ContainerPowerStation.prefab using Guid(89271185f3cf14442ae8f0c7ad0b9d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2da8fc45393590a0c926311b80b1a978') in 0.0194729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.661041 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/27_0.asset
+  artifactKey: Guid(1be361a9d289f8346802e59aea2b27a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/27_0.asset using Guid(1be361a9d289f8346802e59aea2b27a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '102761467fd9154016b08508fea6d6d7') in 0.0212731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.466943 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/26_0.asset
+  artifactKey: Guid(b0480b0ccd5aebd41bbfb3ff9bc8aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/26_0.asset using Guid(b0480b0ccd5aebd41bbfb3ff9bc8aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baad390515227f05907d11c1bd5b15f3') in 0.0104439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/EnginePowerStation.prefab
+  artifactKey: Guid(f10100adc6f807b4898921eafc4bf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/EnginePowerStation.prefab using Guid(f10100adc6f807b4898921eafc4bf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '785fbc99b679fab57072d2e1d1c9e838') in 0.0204281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.675747 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/26_0.asset
+  artifactKey: Guid(b0480b0ccd5aebd41bbfb3ff9bc8aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/26_0.asset using Guid(b0480b0ccd5aebd41bbfb3ff9bc8aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39590fe807c15578c21fee3dbe03ed6c') in 0.0083785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/EnginePowerStation.prefab
+  artifactKey: Guid(f10100adc6f807b4898921eafc4bf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/EnginePowerStation.prefab using Guid(f10100adc6f807b4898921eafc4bf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59bab0178259b14c8c03e94099ba3a6b') in 0.018278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.330493 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/26_0.asset
+  artifactKey: Guid(b0480b0ccd5aebd41bbfb3ff9bc8aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/26_0.asset using Guid(b0480b0ccd5aebd41bbfb3ff9bc8aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a2c9cb654f8dd78019f8596bd74083e') in 0.0082079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/EnginePowerStation.prefab
+  artifactKey: Guid(f10100adc6f807b4898921eafc4bf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/EnginePowerStation.prefab using Guid(f10100adc6f807b4898921eafc4bf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9c370a7910fd215ee0a548fe8afb867') in 0.0183604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.562186 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/26_0.asset
+  artifactKey: Guid(b0480b0ccd5aebd41bbfb3ff9bc8aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/26_0.asset using Guid(b0480b0ccd5aebd41bbfb3ff9bc8aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04daaeeb1ea0bcd21802c4374700c11a') in 0.0081916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/EnginePowerStation.prefab
+  artifactKey: Guid(f10100adc6f807b4898921eafc4bf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/EnginePowerStation.prefab using Guid(f10100adc6f807b4898921eafc4bf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2694d685f2c0536e574b08c45343fe34') in 0.0192855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.809429 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/26_0.asset
+  artifactKey: Guid(b0480b0ccd5aebd41bbfb3ff9bc8aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/26_0.asset using Guid(b0480b0ccd5aebd41bbfb3ff9bc8aba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b069450229e57a69f3bfe3a90897bb3a') in 0.0082728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/EnginePowerStation.prefab
+  artifactKey: Guid(f10100adc6f807b4898921eafc4bf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/EnginePowerStation.prefab using Guid(f10100adc6f807b4898921eafc4bf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22830028d95c62cf6ca52103f0f9ec9d') in 0.0197814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.825977 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/2_0.asset
+  artifactKey: Guid(3c10412127fd3cb4e9fc79c56db04efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/2_0.asset using Guid(3c10412127fd3cb4e9fc79c56db04efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6a4fdeb425df4973d78d3b7a5093010') in 0.0260825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.106429 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/14_0.asset
+  artifactKey: Guid(e3f7ad1089bc6a54eb6befca7e571b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/14_0.asset using Guid(e3f7ad1089bc6a54eb6befca7e571b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee0806550ef67f0c9455539fd27e331e') in 0.037438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/16_0.asset
+  artifactKey: Guid(218a95000e0f4e74eab0e079c4a14a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/16_0.asset using Guid(218a95000e0f4e74eab0e079c4a14a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e258a5b3981d71bc6f52ddc797d39581') in 0.0234047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/Bo.prefab
+  artifactKey: Guid(96d16a2cdea24bf42a4996414fea8cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/PowerStation_Zone/Objects/Decoration/Bo.prefab using Guid(96d16a2cdea24bf42a4996414fea8cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd15a15c40306e01d48b60393d59090') in 0.0320251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
