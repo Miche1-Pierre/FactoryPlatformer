@@ -11,8 +11,8 @@ public class Player : MonoBehaviour
     public float speed = 2f;
     public float jumpForce = 4f;
 
-    private bool _isGrounded;
-    private bool _isJumping;
+    public bool _isGrounded;
+    public bool _isJumping;
 
     private Tilemap _tilemap;  // Référence au Tilemap de la scène
 

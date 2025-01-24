@@ -19,7 +19,6 @@ public class PlayerSwimming : MonoBehaviour
     private bool _isAtSurface;
     private float _waterSurfaceY;
 
-    // Référence au script Player
     private Player _playerScript;
 
     private void Start()
@@ -27,8 +26,10 @@ public class PlayerSwimming : MonoBehaviour
         _rb2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
 
-        // Récupère la référence au script Player
         _playerScript = GetComponent<Player>();
+        _playerScript.jumpForce = 5f;
+        _playerScript._isGrounded = true;
+        _playerScript._isJumping = false;
     }
 
     private void Update()
@@ -43,7 +44,6 @@ public class PlayerSwimming : MonoBehaviour
         // Si le joueur est hors de l'eau, on applique le saut classique
         else
         {
-            // Appel du saut classique via le script Player
             if (_playerScript != null)
             {
                 _playerScript.HandleJump();
