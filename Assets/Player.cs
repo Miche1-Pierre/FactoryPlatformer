@@ -1,5 +1,5 @@
+using TMPro;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
 public class Player : MonoBehaviour
 {
@@ -9,21 +9,20 @@ public class Player : MonoBehaviour
 
     [Header("Movement Settings")]
     public float speed = 2f;
+    public TextMeshProUGUI textScore;
     public float jumpForce = 4f;
 
     public bool _isGrounded;
     public bool _isJumping;
 
-    private Tilemap _tilemap;  // Référence au Tilemap de la scène
+    private int score = 0; // Compteur de score
 
     private void Start()
     {
+        // Initialisation des composants
         _rb2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
-
-        // Récupérer le Tilemap de la scène
-        _tilemap = GameObject.Find("Tilemap").GetComponent<Tilemap>();
     }
 
     private void Update()
@@ -82,6 +81,19 @@ public class Player : MonoBehaviour
         CheckGrounded(collision);
     }
 
+    // 📐 **Détecter une pièce et mettre à jour le score**
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if(collider.gameObject.CompareTag("Money"))
+        {
+            // Incrémente le score
+            IncrementScore();
+            
+            // Supprime la pièce
+            Destroy(collider.gameObject);
+        }
+    }
+
     // 📐 **Détecter si le joueur reste au sol**
     private void OnCollisionStay2D(Collision2D collision)
     {
@@ -102,7 +114,6 @@ public class Player : MonoBehaviour
     {
         foreach (ContactPoint2D contact in collision.contacts)
         {
-            // ✅ Seul le contact avec une normale pointant vers le haut est considéré comme le sol
             if (contact.normal.y > 0.5f)
             {
                 _isGrounded = true;
@@ -110,5 +121,12 @@ public class Player : MonoBehaviour
                 return;
             }
         }
+    }
+
+    // ✅ **Incrémente le score et met à jour l'affichage**
+    private void IncrementScore()
+    {
+        score++;
+        textScore.text = $"Score: {score}";
     }
 }
