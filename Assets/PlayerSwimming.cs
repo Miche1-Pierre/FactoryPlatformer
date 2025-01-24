@@ -6,7 +6,7 @@ public class PlayerSwimming : MonoBehaviour
     private Animator _animator;
 
     [Header("Water Settings")]
-    public Collider2D[] waterZones;  // Tableau de zones d'eau
+    public Collider2D[] waterZones;
     public float swimSpeed = 2f;
     public float buoyancyForce = 25f;
     public float surfaceOscillationStrength = 10f;
@@ -69,22 +69,21 @@ public class PlayerSwimming : MonoBehaviour
 
     private void DetectWater()
     {
-        _isInWater = false; // On réinitialise l'état d'eau
+        _isInWater = false;
         foreach (var waterZone in waterZones)
         {
             if (waterZone != null && waterZone.bounds.Contains(transform.position))
             {
                 _isInWater = true;
                 _waterSurfaceY = waterZone.bounds.max.y;
-                // Applique les propriétés de la zone d'eau ici
-                swimSpeed = 2f; // Par exemple, tu peux définir une vitesse pour toutes les zones, ou la personnaliser pour chaque zone
+                swimSpeed = 2f;
                 buoyancyForce = 25f;
                 surfaceOscillationStrength = 10f;
                 surfaceOscillationSpeed = 5f;
                 verticalDrag = 10f;
                 horizontalDrag = 1.5f;
                 jumpOutOfWaterForce = 6f;
-                break;  // Une fois qu'on a trouvé une zone, on sort de la boucle
+                break;
             }
         }
 
