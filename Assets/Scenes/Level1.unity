@@ -1684,7 +1684,7 @@ SpriteRenderer:
   m_SortingLayer: -5
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.2959238, g: 0.36142635, b: 0.4716981, a: 0.5686275}
+  m_Color: {r: 0.2748754, g: 0.42407352, b: 0.6698113, a: 0.5686275}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6030,7 +6030,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.021006659}
+  m_Offset: {x: 0, y: 0.012203097}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6040,7 +6040,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1.0420132}
+  m_Size: {x: 1, y: 1.0244061}
   m_EdgeRadius: 0
 --- !u!212 &1157471585
 SpriteRenderer:
@@ -6087,7 +6087,7 @@ SpriteRenderer:
   m_SortingLayer: -5
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.2959238, g: 0.36142635, b: 0.4716981, a: 0.5686275}
+  m_Color: {r: 0.1788003, g: 0.40349686, b: 0.7735849, a: 0.5686275}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6106,8 +6106,8 @@ Transform:
   m_GameObject: {fileID: 1157471583}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.465996, y: -7.2640123, z: 0.019925378}
-  m_LocalScale: {x: 9.626418, y: 8.482423, z: 3.7224}
+  m_LocalPosition: {x: 27.465996, y: -7.1568, z: 0.019925378}
+  m_LocalScale: {x: 9.626418, y: 8.697028, z: 3.7224}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 783337473}
@@ -9167,7 +9167,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b2f96830c96034e8bc9bd0c0531626, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waterZone: {fileID: 267138383}
+  waterZones:
+  - {fileID: 267138383}
+  - {fileID: 1157471584}
   swimSpeed: 2
   buoyancyForce: 25
   surfaceOscillationStrength: 10

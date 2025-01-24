@@ -6,7 +6,7 @@ public class PlayerSwimming : MonoBehaviour
     private Animator _animator;
 
     [Header("Water Settings")]
-    public Collider2D waterZone;
+    public Collider2D[] waterZones;  // Tableau de zones d'eau
     public float swimSpeed = 2f;
     public float buoyancyForce = 25f;
     public float surfaceOscillationStrength = 10f;
@@ -69,18 +69,28 @@ public class PlayerSwimming : MonoBehaviour
 
     private void DetectWater()
     {
-        if (waterZone != null)
+        _isInWater = false; // On réinitialise l'état d'eau
+        foreach (var waterZone in waterZones)
         {
-            _isInWater = waterZone.bounds.Contains(transform.position);
-
-            if (_isInWater)
+            if (waterZone != null && waterZone.bounds.Contains(transform.position))
             {
+                _isInWater = true;
                 _waterSurfaceY = waterZone.bounds.max.y;
+                // Applique les propriétés de la zone d'eau ici
+                swimSpeed = 2f; // Par exemple, tu peux définir une vitesse pour toutes les zones, ou la personnaliser pour chaque zone
+                buoyancyForce = 25f;
+                surfaceOscillationStrength = 10f;
+                surfaceOscillationSpeed = 5f;
+                verticalDrag = 10f;
+                horizontalDrag = 1.5f;
+                jumpOutOfWaterForce = 6f;
+                break;  // Une fois qu'on a trouvé une zone, on sort de la boucle
             }
-            else
-            {
-                _isAtSurface = false;
-            }
+        }
+
+        if (!_isInWater)
+        {
+            _isAtSurface = false;
         }
     }
 
@@ -148,10 +158,16 @@ public class PlayerSwimming : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        if (waterZone != null)
+        if (waterZones != null)
         {
-            Gizmos.color = new Color(0, 0, 1, 0.5f);
-            Gizmos.DrawCube(waterZone.bounds.center, waterZone.bounds.size);
+            foreach (var waterZone in waterZones)
+            {
+                if (waterZone != null)
+                {
+                    Gizmos.color = new Color(0, 0, 1, 0.5f);
+                    Gizmos.DrawCube(waterZone.bounds.center, waterZone.bounds.size);
+                }
+            }
         }
     }
 }
