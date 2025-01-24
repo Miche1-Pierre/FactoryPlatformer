@@ -5,15 +5,15 @@ public class PlayerInteractions : MonoBehaviour
     private Rigidbody2D _rb2D;
     private Animator _animator;
 
-    private bool _isClimbing = false; // Le joueur est-il en train de grimper ?
-    private bool _isInteracting = false; // Le joueur interagit-il avec quelque chose ?
-    private string _currentInteractionType = ""; // Type d'objet interactif (ex : "Ladders")
+    private bool _isClimbing = false;
+    private bool _isInteracting = false;
+    private string _currentInteractionType = "";
 
     [Header("Climbing Settings")]
-    public float climbSpeed = 3f; // Vitesse de montée sur l'échelle
+    public float climbSpeed = 3f;
 
     [Header("Layer Settings")]
-    public LayerMask platformLayer; // La couche des plateformes
+    public LayerMask platformLayer;
 
     private void Start()
     {
@@ -34,7 +34,7 @@ public class PlayerInteractions : MonoBehaviour
         }
         else
         {
-            ResetAnimations(); // Réinitialise les animations si on n'est pas sur une échelle
+            ResetAnimations();
         }
     }
 
@@ -58,13 +58,13 @@ public class PlayerInteractions : MonoBehaviour
             _animator.SetBool("IsClimbing", true);
             _animator.SetFloat("ClimbingDirection", vertical); // 1 pour montée, -1 pour descente
         }
-        else // Si aucune touche n'est pressée, le joueur reste immobile sur l'échelle
+        else
         {
             _isClimbing = true;
             _rb2D.linearVelocity = new Vector2(_rb2D.linearVelocityX, 0);
 
             _animator.SetBool("IsClimbing", true);
-            _animator.SetFloat("ClimbingDirection", 0); // Animation idle sur l'échelle
+            _animator.SetFloat("ClimbingDirection", 0);
         }
     }
 
