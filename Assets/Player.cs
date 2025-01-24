@@ -41,15 +41,16 @@ public class Player : MonoBehaviour
         Vector2 velocity = _rb2D.linearVelocity;
 
         velocity.x = moveX * speed;
-        _rb2D.linearVelocity = new Vector2(velocity.x, _rb2D.linearVelocityY);
+        _rb2D.linearVelocity = new Vector2(velocity.x, _rb2D.linearVelocity.y);
     }
 
     // 🦘 **Saut**
-    private void HandleJump()
+    public void HandleJump()
     {
+        // Le saut classique est activé uniquement quand le joueur est au sol
         if (Input.GetButtonDown("Jump") && _isGrounded)
         {
-            _rb2D.linearVelocity = new Vector2(_rb2D.linearVelocityX, jumpForce);
+            _rb2D.linearVelocity = new Vector2(_rb2D.linearVelocity.x, jumpForce);
             _isJumping = true;
             _isGrounded = false;
             _animator.SetTrigger("Jump");

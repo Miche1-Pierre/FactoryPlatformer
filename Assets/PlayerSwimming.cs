@@ -13,30 +13,46 @@ public class PlayerSwimming : MonoBehaviour
     public float surfaceOscillationSpeed = 5f;
     public float verticalDrag = 10f;
     public float horizontalDrag = 1.5f;
-    public float jumpOutOfWaterForce = 7f;
+    public float jumpOutOfWaterForce = 6f;
 
     private bool _isInWater;
     private bool _isAtSurface;
     private float _waterSurfaceY;
 
+    // Référence au script Player
+    private Player _playerScript;
+
     private void Start()
     {
         _rb2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+
+        // Récupère la référence au script Player
+        _playerScript = GetComponent<Player>();
     }
 
     private void Update()
     {
         DetectWater();
 
+        // Si le joueur est dans l'eau, on gère la nage
         if (_isInWater)
         {
             HandleSwimming();
         }
+        // Si le joueur est hors de l'eau, on applique le saut classique
+        else
+        {
+            // Appel du saut classique via le script Player
+            if (_playerScript != null)
+            {
+                _playerScript.HandleJump();
+            }
+        }
 
         UpdateAnimations();
 
-        // Ajout du boost pour sortir de l'eau quand on appuie sur espace
+        // Boost pour sortir de l'eau avec la touche Espace, si à la surface
         if (_isAtSurface && Input.GetKeyDown(KeyCode.Space))
         {
             ApplyBoostOutOfWater();
@@ -53,7 +69,6 @@ public class PlayerSwimming : MonoBehaviour
 
     private void DetectWater()
     {
-        // Vérifie si le joueur est dans la zone d'eau
         if (waterZone != null)
         {
             _isInWater = waterZone.bounds.Contains(transform.position);
@@ -111,7 +126,7 @@ public class PlayerSwimming : MonoBehaviour
 
     private void ApplyBoostOutOfWater()
     {
-        // Ajoute une force pour propulser le joueur hors de l'eau
+        // Applique une force pour propulser le joueur hors de l'eau
         _rb2D.AddForce(Vector2.up * jumpOutOfWaterForce, ForceMode2D.Impulse);
     }
 
