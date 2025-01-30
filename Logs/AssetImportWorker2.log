@@ -201,3 +201,95 @@ Unloading 6537 unused Assets / (5.6 MB). Loaded Objects now: 7250.
 Memory consumption went from 182.2 MB to 176.6 MB.
 Total: 13.931100 ms (FindLiveObjects: 1.320600 ms CreateObjectMapping: 1.368900 ms MarkObjects: 6.521000 ms  DeleteObjects: 4.717100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 52953.618180 seconds.
+  path: Assets/Art/Tilesets/Industrial_Zone/AnimatedObjects/Materials
+  artifactKey: Guid(7b31cdeb2f64ad0439b22dc980d66481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Industrial_Zone/AnimatedObjects/Materials using Guid(7b31cdeb2f64ad0439b22dc980d66481) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '981145c9ee4efc384df00f6f04fa5bce') in 0.0071918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050901 seconds.
+  path: Assets/Art/Tilesets/Industrial_Zone/AnimatedObjects/Materials/Transporter3.mat
+  artifactKey: Guid(dece8e702f565ec419f232bd1e762f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Industrial_Zone/AnimatedObjects/Materials/Transporter3.mat using Guid(dece8e702f565ec419f232bd1e762f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5fd1f3e7a94885a1fc9620c7492b7a7') in 0.5222634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 984.772297 seconds.
+  path: Assets/Art/Tilesets/Industrial_Zone/Objects/IndustrialZone number.prefab
+  artifactKey: Guid(32744f23160ea4943b7d5475ce4697df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Industrial_Zone/Objects/IndustrialZone number.prefab using Guid(32744f23160ea4943b7d5475ce4697df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '182bfe30c17d9944a196ea3fddf4b164') in 0.061778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.683362 seconds.
+  path: Assets/Art/Tilesets/Industrial_Zone/Objects/0_0.asset
+  artifactKey: Guid(20610df5d4d120a4692e8a49959260e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Industrial_Zone/Objects/0_0.asset using Guid(20610df5d4d120a4692e8a49959260e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80d68c813f65313999a3c2a49d0a67f6') in 0.0422709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Tilesets/Industrial_Zone/Objects/7_0.asset
+  artifactKey: Guid(a356e7fde9489f5459d023f7e06cd5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Industrial_Zone/Objects/7_0.asset using Guid(a356e7fde9489f5459d023f7e06cd5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8091150c603f4d0a808d16095e3e7138') in 0.0250302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Tilesets/Industrial_Zone/Objects/2_0.asset
+  artifactKey: Guid(383f776ddd6b92044b326a2d496d9781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Industrial_Zone/Objects/2_0.asset using Guid(383f776ddd6b92044b326a2d496d9781) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '603f90c3ca79dfff03fcf68ee95b2dd3') in 0.020792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Tilesets/Industrial_Zone/Objects/4_0.asset
+  artifactKey: Guid(e9476371500287e4792eb4688469b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Industrial_Zone/Objects/4_0.asset using Guid(e9476371500287e4792eb4688469b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f15e8bfa1a65f3814b4138936fcbb15') in 0.0210357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Tilesets/Industrial_Zone/Objects/3_0.asset
+  artifactKey: Guid(6e54fbc019f9b2948bb1b2ed9e50ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Industrial_Zone/Objects/3_0.asset using Guid(6e54fbc019f9b2948bb1b2ed9e50ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9734e4299dfbdb224ba3a5fc4241ab8') in 0.0177828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Tilesets/Industrial_Zone/Objects/9_0.asset
+  artifactKey: Guid(a23528053dfe59a49b6e463776eaa9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Industrial_Zone/Objects/9_0.asset using Guid(a23528053dfe59a49b6e463776eaa9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e599317d3b3f1be29f654f3a19fb55b7') in 0.0164038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.540710 seconds.
+  path: Assets/Art/Tilesets/Industrial_Zone/Objects/Barrel1_0.asset
+  artifactKey: Guid(ee175e660051f624cbb7f276bd239217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Industrial_Zone/Objects/Barrel1_0.asset using Guid(ee175e660051f624cbb7f276bd239217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '456ae2564025acb4e2851a2307b3b983') in 0.0199166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Tilesets/Industrial_Zone/Objects/Barrel4_0.asset
+  artifactKey: Guid(31f388ee100122e4998e4d83fec1dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Industrial_Zone/Objects/Barrel4_0.asset using Guid(31f388ee100122e4998e4d83fec1dd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d7ecbd8e98252c607bbbab96c638a82') in 0.0192094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
