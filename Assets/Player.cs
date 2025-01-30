@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     public bool _isJumping;
 
     private int score = 0; // Compteur de score
-    private int card = 0;
+    public int card = 0;
 
     private void Start()
     {
@@ -86,16 +86,16 @@ public class Player : MonoBehaviour
     // 📐 **Détecter une pièce et mettre à jour le score**
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if(collider.gameObject.CompareTag("Money"))
+        if (collider.gameObject.CompareTag("Money"))
         {
             // Incrémente le score
             IncrementScore();
-            
+
             // Supprime la pièce
             Destroy(collider.gameObject);
         }
 
-        if(collider.gameObject.CompareTag("Card"))
+        if (collider.gameObject.CompareTag("Card"))
         {
             IncrementCard();
             Destroy(collider.gameObject);
@@ -143,4 +143,13 @@ public class Player : MonoBehaviour
         card++;
         textCard.text = $"Card: {card}";
     }
+    public void DecrementCard()
+    {
+        if (card > 0)
+        {
+            card--;
+            textCard.text = $"Card: {card}";
+        }
+    }
+
 }
