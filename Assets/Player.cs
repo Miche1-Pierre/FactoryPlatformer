@@ -10,12 +10,14 @@ public class Player : MonoBehaviour
     [Header("Movement Settings")]
     public float speed = 2f;
     public TextMeshProUGUI textScore;
+    public TextMeshProUGUI textCard;
     public float jumpForce = 4f;
 
     public bool _isGrounded;
     public bool _isJumping;
 
     private int score = 0; // Compteur de score
+    private int card = 0;
 
     private void Start()
     {
@@ -92,6 +94,12 @@ public class Player : MonoBehaviour
             // Supprime la pièce
             Destroy(collider.gameObject);
         }
+
+        if(collider.gameObject.CompareTag("Card"))
+        {
+            IncrementCard();
+            Destroy(collider.gameObject);
+        }
     }
 
     // 📐 **Détecter si le joueur reste au sol**
@@ -128,5 +136,11 @@ public class Player : MonoBehaviour
     {
         score++;
         textScore.text = $"Score: {score}";
+    }
+
+    private void IncrementCard()
+    {
+        card++;
+        textCard.text = $"Card: {card}";
     }
 }
